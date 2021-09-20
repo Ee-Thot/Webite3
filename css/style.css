@@ -1,0 +1,41 @@
+
+section{
+  margin: 0;
+  background-color: #ffffff;
+  width:100%;
+  padding: 200px; 
+}
+
+#image1{
+Background-image: url(../images/image1.jpeg);
+background-size: 100%;
+max-width: 100%;
+height: 600px;
+background-attachment: fixed;
+}
+
+#image2{
+Background-image: url(../images/image2.jpeg);
+background-size: 100%;
+max-width: 100%;
+height: 600px;
+background-attachment: fixed;
+}
+
+#image3{
+Background-image: url(../images/image3.jpeg);
+background-size: 100%;
+max-width: 100%;
+height: 600px;
+background-attachment: fixed;
+}
+
+body{
+background:
+linear-gradient(45deg, #bdeaed 45px, transparent 45px)64px 64px,
+linear-gradient(45deg, #bdeaed 45px, transparent 45px,transparent 91px, #edbddb 91px, #adbddb 135px, transparent 135px),
+linear-gradient(-45deg, #bdeaed 23px, transparent 23px, transparent 68px,#bdeaed 68px,#bdeaed 113px,transparent 113px,transparent 158px,#bdeaed 158px);
+background-color:#edbddb;
+background-size: 128px 128px;
+margin:0;
+}
