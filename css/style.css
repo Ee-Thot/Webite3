@@ -3,13 +3,8 @@
 nav{
   margin:0;
   width:100%;
-  padding:50px;
-  background:
-linear-gradient(45deg, #bdeaed 45px, transparent 45px)64px 64px,
-linear-gradient(45deg, #bdeaed 45px, transparent 45px,transparent 91px, #edbddb 91px, #adbddb 135px, transparent 135px),
-linear-gradient(-45deg, #bdeaed 23px, transparent 23px, transparent 68px,#bdeaed 68px,#bdeaed 113px,transparent 113px,transparent 158px,#bdeaed 158px);
-background-color:#edbddb;
-background-size: 128px 128px;
+  padding:60px;
+  background-image: linear-gradient(to left, #edbddb, #bdeaed);
 }
 p{
   margin:0;
@@ -22,6 +17,7 @@ linear-gradient(-45deg, #bdeaed 23px, transparent 23px, transparent 68px,#bdeaed
 background-color:#edbddb;
 background-size: 128px 128px;
 }
+
 section{
   margin: auto;
   width:100%;
@@ -67,11 +63,17 @@ height: 450px;
 background-attachment: fixed;
 }
 
-body{
-margin:0;
-background-color: #edbddb;
+#image4{
+background-image: url(../images/skatedude.jpeg);
+background-size: 100%;
+max-width: 100%;
+height: 450px;
+background-attachment: fixed;
 }
 
+body{
+  margin:auto;
+}
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -79,13 +81,9 @@ background-color: #edbddb;
   nav{
   margin:0;
   width:100%;
-  padding:50px;
-  background:
-linear-gradient(45deg, #bdeaed 45px, transparent 45px)64px 64px,
-linear-gradient(45deg, #bdeaed 45px, transparent 45px,transparent 91px, #edbddb 91px, #adbddb 135px, transparent 135px),
-linear-gradient(-45deg, #bdeaed 23px, transparent 23px, transparent 68px,#bdeaed 68px,#bdeaed 113px,transparent 113px,transparent 158px,#bdeaed 158px);
-background-color:#edbddb;
-background-size: 128px 128px;
+  padding:60px;
+  background-image: linear-gradient(to left, #edbddb, #bdeaed);
+
 }
 p{
   margin:0;
@@ -143,11 +141,17 @@ height: 300px;
 background-attachment: fixed;
 }
 
-body{
-margin:0;
-background-color: #edbddb;
+#image4{
+background-image: url(../images/skatedude.jpeg);
+background-size: 100%;
+max-width: 100%;
+height: 300px;
+background-attachment: fixed;
 }
 
+body{
+  margin:auto;
+}
 }
 
 @media screen and (max-width: 767px) {
@@ -169,7 +173,7 @@ background-color: #edbddb;
 }
 
 body{
-   background-image: linear-gradient(to bottom right, #edbbdb, #bdeaed);
+   background-image: linear-gradient(to bottom right, #edbddb, #bdeaed);
 }
 
 }
